@@ -1,0 +1,40 @@
+ Funciona para los titulos
+- <h (1,2,3,4,5 y 6)>
+
+ Funciona para los párrafos 
+-<p> 
+
+ Funciona para la ñ o las tildes
+- <meta charset="utf-8"/>
+
+ Funciona para colocar las letras en cursiva 
+- <em>
+
+ Funciona para colocar el texto en negritas
+- <strong>
+
+
+Funcona para agregar imagenes
+- <img src=>
+  En caso de que la imagen no se vea o no sea compatible con el ordenador, se utiliza:
+- <img src= "imagen" alt>
+Ese "alt" permite agregar texto, que se verá al menos que la imagen no pueda verse.
+ En caso de querer cambiar el tamaño, existe un atributo llamado:
+- width
+
+ Funciona para convertir el texto que encierra en un hipervínculo (se llama ancla)
+- <a>
+Estas anclas pueten tener varios atributos:
+- <href>  Indica la dirección web a la que se quiere que apunte el enlace, que será hacia donde nos lleve el navegador cuando se haga clic sobre el elemento.
+- <title>  Añade información adicional sobre el enlace, como el titulo de la página que se vincula.
+- <target> Especifica el contexto de navegación que va a usar ara mostrar el enlace.  Por ejemplo, target="_blank" abrirá el enlace en una nueva pestaña. Si quieres mostrar el enlace en la pestaña activa, simplemente omite este atributo.
+ EJEMPLO TE TODO ESTO: <p> texto <a href=" texto" title="texto" target="texto"> (texto opcional) </a>.
+
+Para incluir estos carácteres especiales al texto  no se interprete como un código:
+
+Caracter literal	Equivalente de referencia de caracteres
+<	                   &lt;
+>	                   &gt;
+"	                   &quot;
+'	                   &apos;
+&	                   &amp;
