@@ -7,9 +7,21 @@
  
  p a {color: rgba(231, 24, 173, .5);}
 
+.inicio {
+	width: 500px ;
+	height: ;
+	background: #E3E7E5 ;
+	color: #FFFFFF ;
+	font-size: 30px;
+	float: left;
+}
+
 div span p {
-	background:#E7CBF5;
-	color:#FFC21B;
+	background:url(../imagenes/señal.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: width: 5em;
+	color:#FFCD75;
  	font-size: 4em;
  	width: 30%;
  	margin: 50px 350px;
@@ -18,7 +30,17 @@ div span p {
  /*border: 20px PREGUNTAR*/}
 
  .labia {
- 	background: #fff; 
+ 	background: #73E7AF;
+ 	color: #737F79;
+ 	width: 200px;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	/*position: fixed;ESTO ES PARA QUE LA CAJA SE QUEDE ESTATICA*/
+ 	position: absolute;
+ 	top: 340px;
+ 	bottom: -80px;
+ 	right: 0px;
+ 	left: 800px;
  }
 
  #servicios {}
